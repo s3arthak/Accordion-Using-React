@@ -1,0 +1,39 @@
+/* Accordion.css */
+
+.main_div {
+  max-width: 600px;
+  margin: auto;
+}
+
+.main_heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #1d1c1c;
+  color: white;
+  border: 1px solid #494949;
+  cursor: pointer;
+}
+
+.main_heading h3 {
+  margin: 0;
+}
+
+.answers {
+  border-top: 1px solid #0c0c0c;
+  color:white;
+  padding: 10px;
+  background-color: #494949;
+}
+
+/* Optional: Add some transition for smooth animation */
+.main_heading p {
+  transition: transform 0.3s ease-in-out;
+}
+
+.main_heading:hover p {
+  transform: scale(1.1);
+}
+
+
